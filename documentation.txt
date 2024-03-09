@@ -1,0 +1,17 @@
+1. create bulk entries
+-- http://localhost:3000/api/bulk/upload
+-- {
+  "data": [
+    ["tarun","true","5march","55","js","3000","india"],
+    ["tarun2","true2","5march2","552","js2","30020","india2"]
+  ]
+}
+
+2. fetch all employees
+-- http://localhost:3000/api/employee/all
+
+3.delete employee
+-- http://localhost:3000/api/employee/delete
+-- {
+  "data" : [1,2,3,4,5,6]
+}
